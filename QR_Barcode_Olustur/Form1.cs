@@ -27,5 +27,10 @@ namespace QR_Barcode_Olustur
             Zen.Barcode.CodeQrBarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.CodeQr;
             pictureBox1.Image = barcode.Draw(txt_qr.Text, 50);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

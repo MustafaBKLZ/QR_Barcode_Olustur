@@ -103,7 +103,7 @@ namespace QR_Barcode_Olustur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(661, 400);
             this.Controls.Add(this.btn_qr);
             this.Controls.Add(this.txt_qr);
             this.Controls.Add(this.label2);
@@ -113,6 +113,7 @@ namespace QR_Barcode_Olustur
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
