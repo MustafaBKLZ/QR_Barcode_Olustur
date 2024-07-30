@@ -37,6 +37,9 @@
   <PropertyGroup>
     <ApplicationIcon>9042901_qr_code_icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>9042901_qr_code_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
